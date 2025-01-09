@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.numdata.mn/source/"
+     xml:base="http://www.numdata.mn/source/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#aguulna -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies#aguulna">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies#tuluvluguu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies#hicheel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulburtei_baina -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies#hutulburtei_baina">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies#tenhim"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies#hutulbur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tenhimtei_baina -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies#tenhimtei_baina">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies#salbar_surguuli"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies#tenhim"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#todorhoilno -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies#todorhoilno">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies#hutulbur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies#tuluvluguu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#zalgamjilna -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies#zalgamjilna">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies#hicheel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies#zalgamj_hicheel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheel_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheel_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheel_index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheel_index">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#index"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheel_ner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheel_ner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_eng"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_mn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheel_todorhoilogdson -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheel_todorhoilogdson">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheeliin_bagts_tsag -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheeliin_bagts_tsag">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheeliin_oroh_uliral -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hicheeliin_oroh_uliral">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulbur_batlagdsan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hutulbur_batlagdsan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulbur_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hutulbur_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulbur_index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hutulbur_index">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#index"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulbur_ner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#hutulbur_ner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_eng"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_mn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#index"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#negjiin_ner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#negjiin_ner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_mn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#ner_eng -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#ner_eng">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#ner_mn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#ner_mn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#surguuli_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#surguuli_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tenhim_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#tenhim_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tuluvluguu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#tuluvluguu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tuluvluguu_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#tuluvluguu_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tuluvluguu_ner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#tuluvluguu_ner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_mn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#zalgamj_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#zalgamj_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#id"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#zalgamj_ner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies#zalgamj_ner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies#ner_mn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hicheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#hicheel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#hutulbur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#hutulbur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#salbar_surguuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#salbar_surguuli"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tenhim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#tenhim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#tuluvluguu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#tuluvluguu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies#zalgamj_hicheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies#zalgamj_hicheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies#hicheel"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
